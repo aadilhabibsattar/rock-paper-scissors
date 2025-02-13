@@ -1,0 +1,54 @@
+body {
+    background-color: #282c34;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+.player-selection-btn {
+    background-color: #272727;
+    color: white;
+    opacity: 0.7;
+
+    border-radius: 10%;
+    border: 0.2rem #466388 solid;
+
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+    cursor: pointer;
+    
+    transition: opacity 0.2s;
+}
+
+.player-selection-btn:hover {
+    opacity: 1;
+}
+
+.game-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 80vw;
+    height: 60vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+    flex-direction: column;
+}
+
+.buttons-div {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.result-div {
+    margin-bottom: 1rem;
+}
