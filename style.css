@@ -49,6 +49,11 @@ body {
     gap: 2rem;
 }
 
-.result-div {
+.result-div, .score-div {
     margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.info {
+    font-size: 1.2rem;
 }
